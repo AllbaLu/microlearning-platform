@@ -1,0 +1,12 @@
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #fff;
+  color: #333;
+
+}
+
+@media (max-width: 576px) {
+  body {
+    font-size: 15px;
+  }
+}
