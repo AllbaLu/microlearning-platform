@@ -5,12 +5,14 @@ import './App.css'
 import { Home } from './front/pages/Home'
 import {LessonsGrid} from '../src/front/components/LessonsGrid'
 import { Blog } from './front/pages/blog'
+import ChatForm from './front/components/ChatForm'
 
 function App() {
   
   return (
     <>
       <Home />
+      <ChatForm />
       <LessonsGrid />
       <Blog />
        

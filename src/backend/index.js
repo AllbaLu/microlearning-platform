@@ -11,10 +11,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-app.use(chatRoutes);
+app.use('/api', chatRoutes);
 
 
 const PORT = 3001;
 app.listen(PORT, () => {
-    console.log(`Servidor activo en http://localhost:${PORT}`);   
+    console.log(`Active server at http://localhost:${PORT}`);   
 })
