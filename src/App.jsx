@@ -6,6 +6,7 @@ import { Home } from './front/pages/Home'
 import {LessonsGrid} from '../src/front/components/LessonsGrid'
 import { Blog } from './front/pages/blog'
 import ChatForm from './front/components/ChatForm'
+import './i18n';
 
 function App() {
   
