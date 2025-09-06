@@ -1,15 +1,19 @@
 import React from "react"
-
+import { useTraslation } from "react";
+import { useEffect, useState } from "react";
+import axios from 'axios';
 
 
 
 export const Home = () => {
     return(
         <section>
-            <h1>Learn something new every day</h1>
+            <h1>{ t ("home.title")} </h1>
             <p>
-                Discovery daily bite-sized lessons in various topics, 
-                designed to expand your knowledge
+                { t ("home.subtitle")}
+            </p>
+            <p>
+                { t ("home.cta")}
             </p>
 
         </section>
