@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "title": "Finance",
+        "description": "This a finance description",
+        "category": "Category"
+    },
+    {
+        "id": 2,
+        "title": "Economy",
+        "description": "This a finance description",
+        "category": "Category"
+    },
+    {
+        "id": 3,
+        "title": "Geography",
+        "description": "This a finance description",
+        "category": "Category"
+    },
+    {
+        "id": 4,
+        "title": "Programming",
+        "description": "This a finance description",
+        "category": "Category"
+    },
+    {
+        "id": 5,
+        "title": "Psychology",
+        "description": "This a finance description",
+        "category": "Category"
+    },
+    {
+        "id": 6,
+        "title": "Marketing",
+        "description": "This a finance description",
+        "category": "Category"
+    }
+]
