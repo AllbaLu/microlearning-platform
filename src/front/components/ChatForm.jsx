@@ -1,6 +1,7 @@
 import { useState } from "react";
 import axios from 'axios';
 
+
 export const ChatForm = () => {
     const [prompt, setPrompt] = useState('');
     const [response, setResponse] = useState('');
@@ -15,6 +16,7 @@ export const ChatForm = () => {
 
         try {
             const res = await axios.post('http://localhost:3001/api/chat', {prompt})
+            console.log(res, "Error Chatform")
             setResponse(res.data.reply);
         } catch (error) {
             console.log(error, "error response");

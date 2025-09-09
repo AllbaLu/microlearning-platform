@@ -2,14 +2,14 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 import LanguageDetector from 'i18next-browser-languagedetector';
 
-import enCommon from '../src/locales/en/common.json';
-import enTopics from '../src/locales/en/topics.json';
+import enCommon from './locales/en/common.json';
+import enTopics from './locales/en/topics.json';
 
-import esCommon from '../src/locales/es/common.json';
-import esTopics from '../src/locales/es/topics.json';
+import esCommon from './locales/es/common.json';
+import esTopics from './locales/es/topics.json';
 
-import ptCommon from '../src/locales/pt/common.json';
-import ptTopics from '../src/locales/pt/topics.json';
+import ptCommon from './locales/pt/common.json';
+import ptTopics from './locales/pt/topics.json';
 
 const resources = {
   en: {

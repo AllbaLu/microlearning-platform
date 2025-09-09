@@ -1,0 +1,14 @@
+{   
+    "home":{
+        "title": "Learn something new every day",
+        "subtitle": "Discovery daily bite-sized lessons in various topics, designed to expand your knowledge",
+        "cta": "cta"
+    },
+
+    "navbar": {
+        "ai": "AI",
+        "lessons": "lessons",
+        "blog": "blog"
+
+    }
+}
